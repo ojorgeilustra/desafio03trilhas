@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Habilidades</title>
+    <link rel="stylesheet" href="styles/global.css">
+    <link rel="stylesheet" href="styles/header.css">
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/footer.css">
+    <link rel="stylesheet" href="styles/form.css">
+    <script src="https://kit.fontawesome.com/e85ef9a315.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header class="cabecalho">
+        <div class="container">
+            <nav class="menuDesktop">
+                <ul class="menu__list">
+                    <li><a class="menu__item" href="index.html"><i class="fa-regular fa-star" style="color: #DB9028;"></i>Home</a></li>
+                    <li><a class="menu__item" href="habilidades.html"><i class="fa-regular fa-heart" style="color: #DB9028;"></i>
+                        Habilidades</a></li>
+                    <li><a class="menu__item" href="projetos.html"><i class="fa-regular fa-heart" style="color: #DB9028;"></i>
+                        Projetos</a></li>
+                    <li><a class="menu__item" href="contato.html"><i class="fa-regular fa-envelope" style="color: #DB9028;"></i>
+                        Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+        
+        <nav class="menuMobile invisible">
+            <ul class="menu__list--mobile">
+                <li class="menu__item"><a href="index.html"><i class="fa-regular fa-star" style="color: #DB9028;"></i>Home</a></li>
+                <li class="menu__item"><a href="habilidades.html"><i class="fa-regular fa-heart" style="color: #DB9028;"></i>
+                    Habilidades</a></li>
+                <li class="menu__item"><a href="projetos.html"><i class="fa-regular fa-heart" style="color: #DB9028;"></i>
+                    Projetos</a></li>
+                <li class="menu__item"><a href="contato.html"><i class="fa-regular fa-envelope" style="color: #DB9028;"></i>
+                    Contato</a></li>
+            </ul>
+        </nav>
+        
+        <button class="button__menu">
+            <img src="./assets/icons/menu.svg" alt="ícone de menu">
+        </button>
+
+    </header>
+
+    <main class="apresentacao">
+        <section class="apresentacao__conteudo">
+            <h1 class="apresentacao__conteudo__titulo">Contato</h1>
+            <p class="apresentacao__conteudo__texto">Fique à vontade para entrar em contato comigo, sobre qualquer tipo de projeto. Vou adorar bater um papo com você!</p>
+
+            <form class="formulario__conteudo__campos">
+                <div>
+                    <input type="text" name="nome" id="nome" required placeholder="Nome Completo">
+                </div>
+                <div>
+                    <input type="email" name="email" id="email" required placeholder="E-mail">
+                </div>
+                <div>
+                    <label>Como posso lhe ajudar?</label>
+                    <textarea rows="4" style="width: 23em" id="objetivos" name="objetivos"></textarea>
+                </div>
+
+                <div class="formulario__botoes">
+                    <button class="formulario__botoes__cancelar" type="reset">Cancelar</button>
+                    <button class="formulario__botoes__enviar" type="submit">Enviar</button>
+                </div>
+                
+            </form>
+            
+        </section>
+
+        <div class="apresentacao__imagem__ilustra">
+            <img src="./assets/contato/ilustra.jpg" alt="ilustra">
+        </div>    
+    </main>
+
+    <body background="./assets/imagens/background_codigos.png"></body>
+
+    <footer class="rodape">
+        <img class="rodape__logo" src="./assets/imagens/Logo_AluraInclude.svg" alt="Logo Alura Include">
+        <p>Desenvolvido por Jorge Menezes.</p> 
+    </footer> 
+
+    <script src="./js/menuMobile.js"></script>
+</body>
+</html>

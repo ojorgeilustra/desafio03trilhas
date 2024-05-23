@@ -1,0 +1,169 @@
+.apresentacao {
+    padding: 5% 15%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 50px;
+}
+
+.apresentacao__conteudo {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.apresentacao__conteudo__titulo {
+    font-size: 4rem;
+    font-family: var(--fonte-primaria);
+}
+
+.sobrenome {
+    color: var(--cor-terciaria);
+}
+
+#nome-autor::after {
+    content: "|";
+    animation: piscar 0.8s infinite;
+}
+
+@keyframes piscar {
+    0% {
+        opacity: 0;
+    }
+
+    50% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
+
+.apresentacao__conteudo__texto {
+    font-size: 1.5rem;
+    font-family: var(--fonte-secundaria);
+}
+ 
+.apresentacao__links {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 15px;
+}
+
+.apresentacao__links__subtitulo {
+    font-family: var(--fonte-primaria);
+    font-size: 1.5rem;
+    font-weight: 600;    
+}
+
+.apresentacao__links__navegacao {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    align-items: center;
+    width: 50%;
+    height: 20px;
+    text-align: center;
+    border-radius: 10px;
+    font-size: 1.2rem;
+    padding: 21px 0px;
+    text-decoration: none;
+    color: var(--cor-secundaria);
+    border: 2px solid var(--cor-terciaria);
+    font-family: var(--fonte-secundaria);
+    font-weight: 600;
+}
+
+.apresentacao__links__link:hover {
+    background-color: var(--cor-hover);
+}
+
+.apresentacao__imagem {
+    width: 50%;
+}
+
+.apresentacao__imagem__ilustra {
+    width: 60%;
+}
+
+.projetos {
+    padding: 5% 15%;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.projetos__conteudo { 
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.projetos__conteudo__titulo {
+    font-size: 4rem;
+    font-family: var(--fonte-primaria);
+}
+
+.projetos__conteudo__texto {
+    font-size: 1.5rem;
+    font-family: var(--fonte-secundaria);
+}
+
+.projetos__galeria {
+    display: flex;
+    justify-content: center;    
+}
+
+.projetos__galeria__titulo {
+    font-family: var(--fonte-secundaria);
+    text-align: center;
+}
+
+.projetos__galeria__imagem {
+   padding: 5% 0 5% 0;
+}
+
+@media (max-width: 1200px) {
+
+    .apresentacao {
+        flex-direction: column-reverse;
+        padding: 2%;
+    }
+
+    .apresentacao__conteudo {
+        width: auto;
+    }
+
+    .apresentacao__imagem {
+        padding: 15% 0 0 0;
+        width: auto;
+    }
+
+    .apresentacao__imagem__ilustra {
+        padding: 15% 0 0 0;
+        width: auto;
+    }
+
+    .projetos {
+        padding: 2%;
+    }
+
+    .projetos__conteudo__titulo {
+        padding: 15% 0 0 0;
+    }
+
+    .projetos__galeria {
+        flex-direction: column;
+        padding-top: 5%;
+    }
+
+    .projetos__galeria__projeto {
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+    }
+}

@@ -1,0 +1,14 @@
+
+.rodape {
+    border-top: 2px solid #446c80;
+    padding: 24px;
+    text-align: center;
+    font-family: var(--fonte-secundaria);
+    font-weight: 400;
+    font-size: 1rem;
+    color: var(--cor-secundaria);  
+}
+
+.rodape__logo {
+    padding: 0 0 1% 0;
+}

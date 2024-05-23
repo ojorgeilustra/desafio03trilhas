@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meus projetos</title>
+    <link rel="stylesheet" href="styles/global.css">
+    <link rel="stylesheet" href="styles/header.css">
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/footer.css">
+    <link rel="stylesheet" href="styles/form.css">
+    <script src="https://kit.fontawesome.com/e85ef9a315.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header class="cabecalho">
+        <div class="container">
+            <nav class="menuDesktop">
+                <ul class="menu__list">
+                    <li><a class="menu__item" href="index.html"><i class="fa-regular fa-star" style="color: #DB9028;"></i>Home</a></li>
+                    <li><a class="menu__item" href="habilidades.html"><i class="fa-regular fa-heart" style="color: #DB9028;"></i>
+                        Habilidades</a></li>
+                    <li><a class="menu__item" href="projetos.html"><i class="fa-regular fa-heart" style="color: #DB9028;"></i>
+                        Projetos</a></li>
+                    <li><a class="menu__item" href="contato.html"><i class="fa-regular fa-envelope" style="color: #DB9028;"></i>
+                        Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+        
+        <nav class="menuMobile invisible">
+            <ul class="menu__list--mobile">
+                <li class="menu__item"><a href="index.html"><i class="fa-regular fa-star" style="color: #DB9028;"></i>Home</a></li>
+                <li class="menu__item"><a href="habilidades.html"><i class="fa-regular fa-heart" style="color: #DB9028;"></i>
+                    Habilidades</a></li>
+                <li class="menu__item"><a href="projetos.html"><i class="fa-regular fa-heart" style="color: #DB9028;"></i>
+                    Projetos</a></li>
+                <li class="menu__item"><a href="contato.html"><i class="fa-regular fa-envelope" style="color: #DB9028;"></i>
+                    Contato</a></li>
+            </ul>
+        </nav>
+        
+        <button class="button__menu">
+            <img src="./assets/icons/menu.svg" alt="ícone de menu">
+        </button>
+
+    </header>
+
+    <main class="projetos">
+        <section class="projetos__conteudo">
+            <h1 class="projetos__conteudo__titulo">Meus projetos</h1>
+            <p class="projetos__conteudo__texto">Aqui estão alguns dos meus projetos favoritos feitos nos últimos meses.</p>
+        </section>
+    </main>
+
+    <div class="projetos__galeria">
+        <div class="projetos__galeria__projeto">
+            <h2 class="projetos__galeria__titulo">Fábulas e Goblins</h2>
+            <a href="https://www.behance.net/gallery/120741519/Fabulas-Goblins"><img class="projetos__galeria__imagem" src="./assets/projetos/projeto01.png" alt="Fabulas e Goblins"></a>  
+        </div>
+        <div class="projetos__galeria__projeto">
+            <h2 class="projetos__galeria__titulo">Freeway</h2>
+            <a href="https://editor.p5js.org/ojorgeilustra/full/ymmKQEmS6"><img class="projetos__galeria__imagem" src="./assets/projetos/projeto02.png" alt="Freeway"></a>  
+        </div>
+        <div class="projetos__galeria__projeto">
+            <h2 class="projetos__galeria__titulo">Pong</h2>
+            <a href="https://editor.p5js.org/ojorgeilustra/full/tPuXAHrYo"><img class="projetos__galeria__imagem" src="./assets/projetos/projeto03.png" alt="Pong P5JS"></a>
+        </div>
+       
+    </div>
+       
+    <body background="./assets/imagens/background_codigos.png"></body>
+
+    <footer class="rodape">
+        <img class="rodape__logo" src="./assets/imagens/Logo_AluraInclude.svg" alt="Logo Alura Include">
+        <p>Desenvolvido por Jorge Menezes.</p> 
+    </footer>
+
+    <script src="./js/menuMobile.js"></script>
+    
+</body>
+</html>

@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="styles/global.css">
+    <link rel="stylesheet" href="styles/header.css">
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/footer.css">
+    <link rel="stylesheet" href="styles/form.css">
+    <script src="https://kit.fontawesome.com/e85ef9a315.js" crossorigin="anonymous"></script>
+    
+</head>
+<body>
+    <header class="cabecalho">
+        <div class="container">
+            <nav class="menuDesktop">
+                <ul class="menu__list">
+                    <li><a class="menu__item" href="index.html"><i class="fa-regular fa-star" style="color: #DB9028;"></i>Home</a></li>
+                    <li><a class="menu__item" href="habilidades.html"><i class="fa-regular fa-heart" style="color: #DB9028;"></i>
+                        Habilidades</a></li>
+                    <li><a class="menu__item" href="projetos.html"><i class="fa-regular fa-heart" style="color: #DB9028;"></i>
+                        Projetos</a></li>
+                    <li><a class="menu__item" href="contato.html"><i class="fa-regular fa-envelope" style="color: #DB9028;"></i>
+                        Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+        
+        <nav class="menuMobile invisible">
+            <ul class="menu__list--mobile">
+                <li class="menu__item"><a href="index.html"><i class="fa-regular fa-star" style="color: #DB9028;"></i>Home</a></li>
+                <li class="menu__item"><a href="habilidades.html"><i class="fa-regular fa-heart" style="color: #DB9028;"></i>
+                    Habilidades</a></li>
+                <li class="menu__item"><a href="projetos.html"><i class="fa-regular fa-heart" style="color: #DB9028;"></i>
+                    Projetos</a></li>
+                <li class="menu__item"><a href="contato.html"><i class="fa-regular fa-envelope" style="color: #DB9028;"></i>
+                    Contato</a></li>
+            </ul>
+        </nav>
+        
+        <button class="button__menu">
+            <img src="./assets/icons/menu.svg" alt="ícone de menu">
+        </button>
+
+    </header>
+    <main class="apresentacao">
+        <section class="apresentacao__conteudo">
+            <h1 class="apresentacao__conteudo__titulo" id="nome-autor"></h1>
+            <script src="./js/titulo.js"></script>
+            <p class="apresentacao__conteudo__texto">Olá, sou o Jorge Ferreira, ilustrador, diretor de arte, motion designer e estudante de programação. <br><strong>Vamos conversar?</strong></p>
+            <div class="apresentacao__links">
+                <h2 class="apresentacao__links__subtitulo">Acesse minhas redes:</h2>
+                <a class="apresentacao__links__navegacao" href="https://github.com/ojorgeilustra">
+                    <i class="fa-brands fa-github fa-xl" style="color: #DB9028;"></i>
+                    Github
+                </a>
+                <a class="apresentacao__links__navegacao" href="https://www.instagram.com/ojorgeilustra/">
+                    <i class="fa-brands fa-instagram fa-xl" style="color: #DB9028;"></i>
+                    Instagram
+                </a>
+                <a class="apresentacao__links__navegacao" href="https://www.behance.net/ojorgeilustra">
+                    <i class="fa-brands fa-square-behance fa-xl" style="color: #DB9028;"></i>
+                    Behance
+                </a>                
+            
+            </div>  
+        </section>
+
+        <div class="apresentacao__imagem">
+            <img src="./assets/home/jorgeferreira_home.png" alt="Jorge Ferreira">
+        </div> 
+    </main>
+            
+    <body background="./assets/imagens/background_codigos.png"></body>
+       
+    <footer class="rodape">
+        <img class="rodape__logo" src="./assets/imagens/Logo_AluraInclude.svg" alt="Logo Alura Include">
+        <p>Desenvolvido por Jorge Menezes.</p> 
+    </footer>
+
+    <script src="./js/menuMobile.js"></script>
+</body>
+</html>

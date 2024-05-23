@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+    --cor-primaria: #E3E5E0;
+    --cor-secundaria: #542344;
+    --cor-terciaria: #DB9028;
+    --cor-hover: #8DECB4;
+
+    --fonte-primaria: "Montserrat", sans-serif;
+    --fonte-secundaria: "Inter", sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    box-sizing: border-box;
+    background-color: var(--cor-primaria);
+    color: var(--cor-secundaria);
+}
+
+
